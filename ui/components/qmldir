@@ -1,0 +1,4 @@
+module Components
+MyButton 1.0 MyButton.qml
+MyInput 1.0 MyInput.qml
+ColorPicker 1.0 ColorPicker.qml
