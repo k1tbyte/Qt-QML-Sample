@@ -1,0 +1,80 @@
+# Qt-specific
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+ui_*.h
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# CMake-specific
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+build/
+out/
+debug/
+release/
+
+# IDE-specific (Qt Creator, CLion, etc)
+.idea/
+*.autosave
+*.swp
+*.user
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+
+# Generated files
+*.o
+*.obj
+*.exe
+*.app
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+
+# Qt Binary files
+*.dll
+*.so
+*.dylib
+
+# Qt resource files
+qrc_*.cpp
+
+# Qt Designer files
+*.ui.autosave
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Project-specific
+# Add any other files/folders specific to your project here
