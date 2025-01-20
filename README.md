@@ -50,6 +50,15 @@ cd build
 cmake ..
 cmake --build .
 ```
+❗Don't forget to add CMake Options:
+
+-DCMAKE_PREFIX_PATH=`{Your path to the qt sdk}`\\`{version}`\mingw_64\lib\cmake
+
+You should also add `{version}\mingw_64\bin` to your PATH.
+
+Or you can modify the PATH locally for the project. Example: `PATH=%PATH%\;C:\Users\kitbyte\devtools\qt\6.8.1\mingw_64\bin`.
+
+With CLion, you can set this for a specific startup configuration: Go to Edit Configurations... -> Select Configuration -> Environment variables -> `PATH=%PATH%\;{path to \mingw_64\bin}`
 
 ## 🎨 Components
 
